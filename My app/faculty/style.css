@@ -1,0 +1,214 @@
+
+
+    /* Your custom styles here */
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-content {
+        padding: 20px;
+        margin-top: 85px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    h2, h3 {
+        padding-bottom: 10px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       
+    }
+
+    th, td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    th {
+        background-color: #f7f7f7;
+        font-weight: bold;
+        color: #333;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    tr:hover {
+        background-color: #f0f0f0;
+    }
+
+    .upload-form, .form-group {
+        margin-top: 30px;
+        padding: 15px;
+        background-color: #fff;
+        border: 1px solid #e6e6e6;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group h2, h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+
+    .form-group hr {
+        margin-bottom: 15px;
+        border: 0;
+        border-top: 1px solid #eaeaea;
+    }
+
+    .module-select, .upload-form label {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .module-select {
+        padding-bottom: 15px;
+        border-bottom: 1px solid #eaeaea;
+        margin-bottom: 20px;
+    }
+
+    .form-control-file {
+        display: block;
+        width: 100%;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+
+    .form-control-file:focus {
+        border-color: #80bdff;
+        outline: 0;
+        box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+    }
+    .file-management {
+        margin-top: 40px;
+        padding: 15px;
+        background-color: #f9f9f9;
+        border: 1px solid #e6e6e6;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .file-management:hover {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .file-management h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+        color: #333;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .file-management hr {
+        margin-bottom: 15px;
+        border: 0;
+        border-top: 1px solid #eaeaea;
+        transition: border-color 0.3s ease-in-out;
+    }
+
+    .file-management .module-select {
+        padding-bottom: 15px;
+        border-bottom: 1px solid #eaeaea;
+        margin-bottom: 20px;
+        transition: border-color 0.3s ease-in-out;
+    }
+
+    .file-management label {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #333;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .file-management select {
+        width: 100%;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        outline: none;
+        transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .file-management select:focus {
+        border-color: #80bdff;
+        box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
+    }
+
+    .file-management ul {
+        list-style: none;
+        padding-left: 0;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .file-management ul li {
+        margin-bottom: 5px;
+        color: #555;
+    }
+
+    .file-management ul li:hover {
+        color: #333;
+    }
+    .file-management button {
+        padding: 5px 10px;
+        margin-left: 10px;
+        border: none;
+        border-radius: 3px;
+        background-color: #dc3545;
+        color: white;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .file-management button:hover {
+        background-color: #c82333;
+    }
+    .file-management ul {
+        list-style: none;
+        padding-left: 0;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .file-management ul li {
+        margin-bottom: 5px;
+        color: #555;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .file-management ul li:hover {
+        color: #333;
+    }
+
